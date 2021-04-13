@@ -1,0 +1,24 @@
+body{ 
+	background-color:rgb(109, 22, 39);
+	font-family: 'Montserrat', "sans-serif";
+	color: white
+	display:table-cell
+}
+img{
+	max-width:3%;
+  max-height:3%;
+  }
+a{
+ color:rgb(194, 196, 194)
+}
+img{
+	float:right, top
+}
+h3{
+float:left;
+display: inline-block
+}
+table{
+width:100%
+border-collapse: collapse;
+{
