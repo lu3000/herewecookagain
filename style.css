@@ -2,23 +2,33 @@ body{
 	background-color:rgb(109, 22, 39);
 	font-family: 'Montserrat', "sans-serif";
 	color: white
-	display:table-cell
 }
 img{
 	max-width:3%;
-  max-height:3%;
+	max-height:3%;
+	display: inline;
+	float:right;
+	vertical-align: top;
+}
   }
 a{
- color:rgb(194, 196, 194)
-}
-img{
-	float:right, top
+ 	color:rgb(194, 196, 194)
 }
 h3{
-float:left;
-display: inline-block
+	float:right;
+	display: inline;
+	vertical-align: top;
+	margin: none;
+	border: none;
 }
-table{
-width:100%
-border-collapse: collapse;
-{
+.grid-container{
+display: grid;
+grid-template-columns: 70% 20% 10%;
+}
+
+.grid-item{
+background-color: blue;
+text-align: center;
+padding: 10px;
+
+}
