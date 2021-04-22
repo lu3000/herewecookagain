@@ -4,31 +4,29 @@ body{
 	color: white
 }
 img{
-	max-width:3%;
-	max-height:3%;
+	width: 25px;
+	height: 25px;
 	display: inline;
 	float:right;
 	vertical-align: top;
+	margin: 5px 2px 0 0;
+	
 }
-  }
+
 a{
- 	color:rgb(194, 196, 194)
+ 	color: rgb(194, 196, 194);
+ 	text-decoration: none;
 }
-h3{
-	float:right;
+h5{
+	text-align: right;
 	display: inline;
 	vertical-align: top;
-	margin: none;
-	border: none;
+	margin: 10px 5px 0 0;
+}
+h2{
+text-decoration: underline;	
 }
 .grid-container{
-display: grid;
-grid-template-columns: 70% 20% 10%;
-}
-
-.grid-item{
-background-color: blue;
-text-align: center;
-padding: 10px;
-
-}
+	display: grid;
+	grid-template-columns: 92% 8%;
+{
