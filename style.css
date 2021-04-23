@@ -23,8 +23,14 @@ h5{
 	vertical-align: top;
 	margin: 10px 5px 0 0;
 }
-h3{
-text-decoration: underline;	
+h2{
+	text-decoration: underline;
+	margin: 23px 0 12px 0	
+}
+p{
+text-align: right;
+font-size: 12px;
+margin: 4px 22px 5px 0
 }
 .grid-container{
 	display: grid;
